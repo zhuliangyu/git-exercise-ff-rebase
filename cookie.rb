@@ -1,9 +1,10 @@
 class Cookie
   attr_accessor :sugar
   attr_accessor :flour
+  attr_accessor :butter
 
-  def initialize(sugar, flour)
-    @sugar, @flour = sugar, flour
+  def initialize(sugar, flour, butter)
+    @sugar, @flour, @butter = sugar, flour, butter
   end
 
   def calorie_count
